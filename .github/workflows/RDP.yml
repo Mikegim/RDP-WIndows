@@ -1,6 +1,7 @@
 name: CI 
 on: [push] 
-jobs: build: 
+jobs: 
+build: 
 runs-on: windows-latest
 steps: 
 – name: Download ngrok 
